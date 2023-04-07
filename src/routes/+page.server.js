@@ -1,5 +1,5 @@
 export function load() {
-	const generatedAt = new Date().getTime();
+	const generatedAt = Date.now();
 
 	return { generatedAt };
 }
